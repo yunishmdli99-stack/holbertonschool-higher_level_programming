@@ -1,0 +1,25 @@
+#!/usr/bin/python3
+zen = "The Zen of Python, by Tim Peters\n"
+zen1 = "\n"
+zen2 = "Beautiful is better than ugly.\n"
+zen3 = "Explicit is better than implicit.\n"
+zen4 = "Simple is better than complex.\n"
+zen5 = "Complex is better than complicated.\n"
+zen6 = "Flat is better than nested.\n"
+zen7 = "Sparse is better than dense.\n"
+zen8 = "Readability counts.\n"
+zen9 = "Special cases aren't special enough to break the rules."
+zen10 = "Although practicality beats purity.\n"
+zen11 = "Errors should never pass silently.\n"
+zen12 = "Unless explicitly silenced.\n"
+zen13 = "In the face of ambiguity, refuse the temptation to guess.\n"
+zen14 = "There should be one-- and preferably only one --obvious way to do it.\n"
+zen15 = "Although that way may not be obvious at first unless you're Dutch.\n"
+zen16 = "Now is better than never.\n"
+zen17 = "Although never is often better than *right* now."
+zen18 = "If the implementation is hard to explain, it's a bad idea.\n"
+zen19 = "If the implementation is easy to explain, it may be a good idea.\n"
+zen20 = "Namespaces are one honking great idea -- let's do more of those!"
+print(zen + zen1 + zen2 + zen3 + zen4 + zen5 + zen6 + zen7 + zen8 + zen9)
+print(zen10 + zen11 + zen12 + zen13 + zen14 + zen15 + zen16 + zen17)
+print(zen18 + zen19 + zen20)
