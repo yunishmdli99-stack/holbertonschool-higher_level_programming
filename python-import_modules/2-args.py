@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 from sys import argv
-if __name__ is "__name__":
+if __name__ == "__name__":
     argc = len(argv) - 1
     if argc == 1:
         print("{} argument:".format(argc))
