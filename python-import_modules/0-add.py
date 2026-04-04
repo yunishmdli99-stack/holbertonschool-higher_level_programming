@@ -4,3 +4,5 @@ def add(a, b):
     b = 2
     c = a + b
     return "{a} + {b} = {c}"
+if __name__ == "__main__":
+    main()
