@@ -1,8 +1,8 @@
 #!/usr/bin/python3
-def add(a, b):
-    a = 1
-    b = 2
-    c = a + b
-    return "{a} + {b} = {c}"
+from add_0 import add
+
+a = 1
+b = 2
+
 if __name__ == "__main__":
-    main()
+    print(f"{a} + {b} = {add(a, b)}")
