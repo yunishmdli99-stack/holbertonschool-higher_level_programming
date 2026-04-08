@@ -4,4 +4,4 @@ def no_c(my_string):
         if my_string[i] == 'c' or my_string[i] == 'C':
             pass
         else:
-            print(my_string[i])
+            print(my_string[i] + "")
