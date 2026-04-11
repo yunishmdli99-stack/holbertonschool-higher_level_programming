@@ -11,5 +11,5 @@ def only_diff_elements(set_1, set_2):
             d_set.add(i)
     for j in set_2:
         if j not in c_set:
-            d_set.add(i)
+            d_set.add(j)
     return d_set
