@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 def best_score(a_dictionary):
-    m = 0
+    m = None
+    best = None
     for i in a_dictionary:
         if m < a_dictionary[i]:
         m = a_dictionary[i]
-    for i in a_dictionary:
-        if m == a_dictionary[i]:
-            return i
+        best = i
+    return best
