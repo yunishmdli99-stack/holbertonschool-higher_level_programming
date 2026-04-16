@@ -1,3 +1,3 @@
---this script will get only the best students
+-- this script will get only the best students
 -- whose points are higher than 10
 SELECT score, name FROM second_table WHERE score>=10 ORDER BY score DESC;
