@@ -1,3 +1,3 @@
 #!/bin/bash
-BODY=$(curl -s "$1")
-echo ${#BODY}
+# Fetches something that I have no axot to explain it
+echo $(curl -s "$1" | wc -c)
