@@ -6,8 +6,9 @@ import sys
 
 def get_github_id(username, token):
     """Fetch GitHub user info and print the user id."""
+    headers = {'User-Agent': username}
     r = requests.get(
-        "https://api.github.com/yunishmdli99-stack",
+        "https://api.github.com/user",
         auth=(username, token)
     )
     print(r.json().get('id'))
